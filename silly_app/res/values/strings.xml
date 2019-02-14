@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Silly_app</string>
+    <string name="Reset">set to Zero</string>
+    <string name="lower">lower</string>
+    <string name="raise">raise</string>
+
+</resources>

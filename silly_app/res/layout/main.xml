@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" android:max="100"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressBar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="48dp" android:layout_marginRight="16dp" android:layout_marginLeft="16dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:max="100" android:scrollbarFadeDuration="100"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonlower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lower" android:layout_marginLeft="32dp" android:layout_weight="0.01"/>
+
+        <Button
+            android:id="@+id/buttonraise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/raise" android:layout_marginRight="32dp" android:layout_weight="0.01"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ButtonReset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Reset" 
+        android:layout_marginBottom="32dp" android:layout_marginLeft="32dp" android:layout_marginRight="32dp" android:layout_marginTop="32dp"/>
+
+</LinearLayout>
