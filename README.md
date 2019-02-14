@@ -7,4 +7,3 @@ silly_app
    You can try the apk in the release folder v1.0. Should run on all Android versions 2.2 and up.
    Silly_app does not need any rights. 
    Check the small java sources to see, that it does nothing than controlling a progress bar, which is shown in the app.  
- 
