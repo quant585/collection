@@ -4,3 +4,9 @@ namespace: default
 resources:
 - ./configmap.yaml
 - ./deploytryout-cm.yaml
+configMapGenerator:
+# generate a ConfigMap named my-system-env-<some-hash> where each key/value pair in the
+# env.txt appears as a data entry (separated by \n).
+- name: my-system-env
+  env: out.txt
+  
