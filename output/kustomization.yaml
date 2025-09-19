@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: tryout
 resources:
 - ./configmap.yaml
+- ./deploytryout-cm.yaml
