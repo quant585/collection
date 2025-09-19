@@ -1,0 +1,6 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+namespace: tryout
+metadata:
+  name: deploytryout-as
+spec:
