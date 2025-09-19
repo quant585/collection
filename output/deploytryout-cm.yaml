@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  annotations:
+    argocd.argoproj.io/tracking-id: deploy-tryout:/ConfigMap:tryout/deploytryout-cm
+  name: deploytryout-cm
+  namespace: tryout
