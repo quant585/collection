@@ -4,4 +4,4 @@ metadata:
   annotations:
     argocd.argoproj.io/tracking-id: deploy-tryout:/ConfigMap:default/configmap
   name: configmap
-  namespace: default
+  namespace: tryout
