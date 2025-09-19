@@ -3,6 +3,7 @@ kind: ConfigMap
 data:
   keyA: valueA
   keyB: valueB
+  keyC: valueC
 metadata:
   annotations:
     argocd.argoproj.io/tracking-id: deploy-tryout:/ConfigMap:default/deploytryout-cm
