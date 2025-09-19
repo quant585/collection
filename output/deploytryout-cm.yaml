@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: ConfigMap
+data:
+  keyA: valueA
+  keyB: valueB
 metadata:
   annotations:
     argocd.argoproj.io/tracking-id: deploy-tryout:/ConfigMap:default/deploytryout-cm
   name: deploytryout-cm
   namespace: default
-data:
-  keyA: valueA
-  keyB: valueB
