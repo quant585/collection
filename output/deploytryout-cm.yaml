@@ -5,6 +5,7 @@ data:
   keyB: valueB
   keyC: valueC
   keyD: valueD
+  keyE: valueE
 metadata:
   annotations:
     argocd.argoproj.io/tracking-id: deploy-tryout:/ConfigMap:default/deploytryout-cm
